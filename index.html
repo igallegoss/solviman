@@ -171,6 +171,60 @@
   </div>
   <!-- Main Carousel Section End -->
 
+
+  <!-- Welcome Section Start -->
+  <section class="welcome-section section-padding section-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-7 col-xs-12">
+          <div class="Material-tab">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#business" role="tab"><i class="mdi mdi-account-multiple-outline"></i> <br> Quiénes somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#startup" role="tab"><i class="mdi mdi-rocket"></i> <br>Misión</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#agency" role="tab"><i class="mdi mdi-eye"></i> <br> Visión</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#saas" role="tab"><i class="mdi mdi-trophy"></i> <br> Compromiso</a>
+              </li>
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <div class="tab-pane fade show active" id="business" role="tabpanel">
+                <p>Soluciones y Visión en Mantenimiento Industrial, SOLVIMAN, es una empresa dedicada al diseño, mantenimiento, fabricación y montaje de proyectos de ingeniería.</p>
+                <p>Nuestro negocio es mantener relaciones a largo plazo con nuestros clientes, brindándoles servicios profesionales de excelencia que, apuntan a sus objetivos a un costo competitivo y dentro de los estándares de calidad y seguridad.</p>
+                <p>Para realizar estas actividades contamos con los equipos y experiencia. Necesarias para garantizar la calidad y operatividad del producto entregado a nuestros clientes.</p>
+              </div>
+              <div class="tab-pane fade" id="startup" role="tabpanel" >
+                <p>Brindar a nuestros clientes soluciones completas, cumpliendo con los estándares de calidad, seguridad y protección del medio ambiente.</p>
+                <p>En base a nuestros principios de calidad, puntualidad, eficiencia y mejoracontinua queremos incentivar e inspirar a nuestros clientes a impulsar el crecimiento tecnológico y cultural de nuestro país.</p>
+              </div>
+              <div  class="tab-pane fade" id="agency" role="tabpanel">
+                <p>A un mediano plazo tomar el liderazgo en los proyectos, servicios y soluciones que ofrecemos a nuestros clientes, aplicando nuestra experiencia y teniendo en claro las necesidades para crecer con nuestros clientes.</p>
+              </div>
+              <div class="tab-pane fade" id="saas" role="tabpanel">
+                <p>Somos una empresa comprometida con la satisfacción de nuestros clientes brindándoles lo mejor de nosotros.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-5 col-xs-12 welcome-column">
+          <div class="video-gallery">
+            <img class="img-fluid" src="assets/images/about/bridge.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Welcome Section End -->
+
+
+
   <!-- About Section -->
   <section class="Material-about-section section-padding">
     <div class="container">
@@ -500,33 +554,33 @@
             <div class="form-group label-floating">
               <label class="control-label" for="name">Nombre</label>
               <input class="form-control" id="name" type="text" name="name" required
-                data-error="Please enter your name">
+                data-error="Please enter your name" disabled>
               <div class="help-block with-errors"></div>
             </div>
             <!-- email -->
             <div class="form-group label-floating">
               <label class="control-label" for="email">Correo electrónico</label>
               <input class="form-control" id="email" type="email" name="email" required
-                data-error="Please enter your Email">
+                data-error="Please enter your Email" disabled>
               <div class="help-block with-errors"></div>
             </div>
             <!-- Subject -->
             <div class="form-group label-floating">
               <label class="control-label">Asunto</label>
               <input class="form-control" id="msg_subject" type="text" name="subject" required
-                data-error="Please enter your message subject">
+                data-error="Please enter your message subject" disabled>
               <div class="help-block with-errors"></div>
             </div>
             <!-- Message -->
             <div class="form-group label-floating">
               <label for="message" class="control-label">Mensaje</label>
               <textarea class="form-control" rows="3" id="message" name="message" required
-                data-error="Write your message"></textarea>
+                data-error="Write your message" disabled></textarea>
               <div class="help-block with-errors"></div>
             </div>
             <!-- Form Submit -->
             <div class="form-submit mt-5">
-              <button class="btn btn-common" type="submit" id="form-submit"><i
+              <button class="btn btn-common" type="submit" id="form-submit" disabled><i
                   class="material-icons mdi mdi-message-outline"></i> Enviar mensaje</button>
               <div id="msgSubmit" class="h3 text-center hidden"></div>
               <div class="clearfix"></div>
